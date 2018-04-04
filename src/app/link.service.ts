@@ -8,6 +8,7 @@ export class LinkService {
   getlinks() {
     return [
       {
+        index: 0,
         title: 'CJ',
         subtitle: 'in all his glory',
         listImage: 'assets/placeholder1.jpg',
@@ -18,6 +19,7 @@ export class LinkService {
         text: 'CJ\'s best day ever!',
       },
       {
+        index: 1,
         title: 'Matt',
         subtitle: 'with the do',
         listImage: 'assets/placeholder1.jpg',
@@ -28,6 +30,7 @@ export class LinkService {
         text: 'Nice Hair!',
       },
       {
+        index: 2,
         title: 'Gary',
         subtitle: 'with the do',
         listImage: 'assets/placeholder1.jpg',
@@ -38,6 +41,7 @@ export class LinkService {
         text: 'Disco Dance Party at Gary\'s!',
       },
       {
+        index: 3,
         title: 'Mike',
         subtitle: 'magnets',
         listImage: 'assets/placeholder1.jpg',
@@ -48,6 +52,7 @@ export class LinkService {
         text: 'All the magnets!',
       },
       {
+        index: 4,
         title: 'Pete',
         subtitle: 'foods',
         listImage: 'assets/placeholder1.jpg',
@@ -58,6 +63,7 @@ export class LinkService {
         text: 'mmmmmmmmmmm!',
       },
       {
+        index: 5,
         title: 'RICK',
         subtitle: 'give up already',
         listImage: 'assets/placeholder3.jpg',
@@ -68,6 +74,7 @@ export class LinkService {
         text: '',
       },
       {
+        index: 6,
         title: 'Mike',
         subtitle: 'robots',
         listImage: 'assets/placeholder1.jpg',
@@ -78,6 +85,7 @@ export class LinkService {
         text: 'beep beep beep beep',
       },
       {
+        index: 7,
         title: 'Mike and Brian',
         subtitle: 'beers',
         listImage: 'assets/placeholder1.jpg',
@@ -88,6 +96,7 @@ export class LinkService {
         text: 'Cheers!',
       },
       {
+        index: 8,
         title: 'Brian',
         subtitle: 'ice cream',
         listImage: 'assets/placeholder1.jpg',
@@ -98,6 +107,7 @@ export class LinkService {
         text: 'YUUUUMMMMMMMM!',
       },
       {
+        index: 9,
         title: 'Matt and Andrew',
         subtitle: 'Co-Ops',
         listImage: 'assets/placeholder1.jpg',
@@ -108,6 +118,7 @@ export class LinkService {
         text: 'All aboard!!',
       },
       {
+        index: 10,
         title: 'Mike',
         subtitle: 'gokarts',
         listImage: 'assets/placeholder1.jpg',
@@ -118,6 +129,7 @@ export class LinkService {
         text: 'Vroooooom!!',
       },
       {
+        index: 11,
         title: 'Kurt',
         subtitle: 'old man',
         listImage: 'assets/placeholder1.jpg',
@@ -128,6 +140,7 @@ export class LinkService {
         text: 'I\ve fallen and I can\'t get up!!',
       },
       {
+        index: 12,
         title: 'Shawn',
         subtitle: 'aka RED',
         listImage: 'assets/placeholder1.jpg',
@@ -138,6 +151,7 @@ export class LinkService {
         text: 'This your brain trying to comprehend your own stupidity. ~RED',
       },
       {
+        index: 13,
         title: 'Greg, Rick, Pete and Bob',
         subtitle: 'the wiggles',
         listImage: 'assets/placeholder1.jpg',
@@ -148,6 +162,7 @@ export class LinkService {
         text: 'what a performance!',
       },
       {
+        index: 14,
         title: 'Contact Me',
         subtitle: 'give up already',
         listImage: 'assets/qr-contact.jpg',

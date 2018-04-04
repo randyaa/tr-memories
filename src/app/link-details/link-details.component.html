@@ -11,6 +11,9 @@
     </mat-card-content>
   </ng-container>
   <ng-container *ngIf="list">
+    <mat-card-header>
+      <mat-card-title>{{link.index}}</mat-card-title>
+    </mat-card-header>
     <qrcode [qrdata]="href + link.link" [size]="256" [level]="'M'"></qrcode>
     <!--<img mat-card-image src="{{link.listImage}}" alt="{{link.listImageAlt}}">-->
   </ng-container>
