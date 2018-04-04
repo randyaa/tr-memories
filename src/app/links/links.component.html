@@ -1,0 +1,7 @@
+<h1>Some memories over the years!</h1>
+
+<div class="grid">
+  <a href="{{x.link}}" *ngFor="let x of cards">
+    <app-link-details [link]="x" [list]="true"></app-link-details>
+  </a>
+</div>

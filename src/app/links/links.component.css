@@ -1,0 +1,9 @@
+.grid {
+  flex-wrap:wrap;
+  /*flex:1;*/
+  display:flex;
+}
+
+a {
+  text-decoration: none;
+}

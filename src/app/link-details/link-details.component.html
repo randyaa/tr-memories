@@ -1,0 +1,17 @@
+<mat-card class="example-card">
+  <ng-container *ngIf="!list">
+    <mat-card-header>
+      <!--<div mat-card-avatar class="example-header-image"></div>-->
+      <mat-card-title>{{link.title}}</mat-card-title>
+      <mat-card-subtitle>{{link.subtitle}}</mat-card-subtitle>
+    </mat-card-header>
+    <img *ngIf="!list" mat-card-image src="{{link.image}}" alt="{{link.imageAlt}}">
+    <mat-card-content>
+      <p>{{link.text}}</p>
+    </mat-card-content>
+  </ng-container>
+  <ng-container *ngIf="list">
+    <qrcode [qrdata]="href + link.link" [size]="256" [level]="'M'"></qrcode>
+    <!--<img mat-card-image src="{{link.listImage}}" alt="{{link.listImageAlt}}">-->
+  </ng-container>
+</mat-card>
