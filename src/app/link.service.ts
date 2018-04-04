@@ -164,13 +164,13 @@ export class LinkService {
       {
         index: 14,
         title: 'Contact Me',
-        subtitle: 'give up already',
+        subtitle: '',
         listImage: 'assets/qr-contact.jpg',
         listImageAlt: 'just try it',
-        image: 'UH OH',
-        imageAlt: 'UH OH',
+        image: 'assets/qr-contact.jpg',
+        imageAlt: 'just try it',
         link: 'contact',
-        text: '',
+        text: 'Just scan me, it\'s a lot nicer',
       },
       // {
       //   title: 'Table Flip',

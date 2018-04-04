@@ -1,4 +1,5 @@
 import { Component, OnInit } from '@angular/core';
+import {LinkService} from '../link.service';
 
 @Component({
   selector: 'app-contact',
@@ -7,23 +8,13 @@ import { Component, OnInit } from '@angular/core';
 })
 export class ContactComponent implements OnInit {
 
-  // theData = 'http://google.com';
+  contactLink;
 
-//   theData = {
-//     email: {
-//     type: 'work',
-//     text: 'simon.perreault@viagenie.ca'
-//     },
-//     geo: {
-//         type: 'work',
-//         uri: 'geo:46.766336,-71.28955'
-//     },
-//     bday: { date: '--0203' },
-// };
-
-  constructor() { }
+  constructor(private _linksService: LinkService) { }
 
   ngOnInit() {
+    const allLinks = this._linksService.getlinks();
+    this.contactLink = allLinks[allLinks.length - 1];
   }
 
 }
